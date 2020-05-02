@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgc {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/tag1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    height: 58px;
+}
+
+.ul {
+    height: 58px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+    line-height: 58px;
+}
+
+.ul li {
+    padding: 20px;
+    display: inline;
+}
+
+.ul li:nth-child(2) {
+    background-color: orange;
+    color: white;
+}
+
+.ul li:nth-child(2):hover {
+    border-bottom: 0px solid orange;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.ul li a:hover {
+    border-bottom: 4px solid orange;
+    cursor: pointer;
+    color: orange;
+}
+
+.head-logo {
+    height: 58px;
+}
+
+.logo {
+    float: left;
+    margin-top: 13px;
+    width: 35px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.name {
+    float: left;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+
+.login {
+    height: 58px;
+    float: right;
+}
+
+.name1 {
+    font-size: 16px;
+    margin-top: 11px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.login a {
+    line-height: 58px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    color: orange;
+}
+
+.input {
+    background-color: #111;
+    opacity: 0.5;
+    width: 500px;
+    position: absolute;
+    left: 150px;
+    bottom: 180px;
+    height: 100px;
+}
+
+.input span {
+    color: white;
+    font-size: 30px;
+}
+
+.input-text {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.search {
+    position: absolute;
+    right: 16px;
+    bottom: 15px;
+}
+
+.text {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.text-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.text-title:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.text-article {
+    width: 200px;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.r-title {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 100px;
+}
+
+.footer div {
+    width: 600px;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+
+.footer div span {
+    margin-right: 20px;
+}

@@ -1,0 +1,141 @@
+.header {
+    height: 58px;
+    background-color: #fff;
+}
+
+.ul {
+    height: 58px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+    line-height: 58px;
+}
+
+.ul li {
+    padding: 20px;
+    display: inline;
+}
+
+
+/* .ul li:nth-child(1) {
+    background-color: orange;
+    color: white;
+}
+
+.ul li:nth-child(1):hover {
+    border-bottom: 0px solid orange;
+    color: white;
+} */
+
+.ul li:hover {
+    border-bottom: 4px solid orange;
+    cursor: pointer;
+    color: orange;
+}
+
+.head-logo {
+    height: 58px;
+}
+
+.logo {
+    float: left;
+    margin-top: 13px;
+    width: 35px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.name {
+    float: left;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+
+.login {
+    height: 58px;
+    float: right;
+}
+
+.name1 {
+    font-size: 16px;
+    margin-top: 11px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.login a {
+    line-height: 58px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "lucida Grande", Verdana, "Microsoft YaHei";
+    font-size: 12px;
+}
+
+a {
+    color: #1d5494;
+    text-decoration: none;
+}
+
+#register1 {
+    margin: 50px;
+    float: left;
+    width: 300px;
+    height: 500px;
+    background: url(../img/logo4.jpg) no-repeat;
+}
+
+#register2 {
+    width: 600px;
+    margin: 50px;
+    float: left;
+    /* border: 1px solid #000; */
+    /* background-color: aqua; */
+    background: url(../img/logo1.jpg) no-repeat;
+}
+
+#register2 h3 {
+    color: #ccc;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.inp {
+    /* height: 30px; */
+    width: 350px;
+    margin: 20px auto;
+}
+
+.inp label {
+    font-size: 20px;
+    height: 20px;
+    color: orange;
+    margin: 10px;
+}
+
+.inp input {
+    margin: 15px;
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 50px;
+    background-color: orange;
+    font-size: 40px;
+}

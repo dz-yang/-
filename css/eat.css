@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header {
+    height: 58px;
+}
+
+.ul {
+    height: 58px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+    line-height: 58px;
+}
+
+.ul li {
+    padding: 20px;
+    display: inline;
+}
+
+.ul li:nth-child(4) {
+    background-color: orange;
+    color: white;
+}
+
+.ul li:nth-child(4):hover {
+    border-bottom: 0px solid orange;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.ul li a:hover {
+    border-bottom: 4px solid orange;
+    cursor: pointer;
+    color: orange;
+}
+
+.head-logo {
+    height: 58px;
+}
+
+.logo {
+    float: left;
+    margin-top: 13px;
+    width: 35px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.name {
+    float: left;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+
+.login {
+    height: 58px;
+    float: right;
+}
+
+.name1 {
+    font-size: 16px;
+    margin-top: 11px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.login a {
+    line-height: 58px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    color: orange;
+}
+
+.go {
+    display: flex;
+    padding: 30px;
+}
+
+.goplay {
+    padding: 10px;
+    display: flex;
+}
+
+.content1 {
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 100px;
+}
+
+.footer div {
+    width: 600px;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+
+.footer div span {
+    margin-right: 20px;
+}
